@@ -25,7 +25,8 @@ export const explorerApiUrls = {
   moonbeam: "https://api-moonbeam.moonscan.io/api",
   aurora: "https://api.aurorascan.dev/api",
   basescan: "https://api.basescan.org/api",
-  "goerli.basescan": "https://api-goerli.basescan.org"
+  "goerli.basescan": "https://api-goerli.basescan.org",
+  blastscan: "https://api.blastscan.io/api",
 };
 
 /**
@@ -60,7 +61,8 @@ export const networkNames: Record<ApiName, string> = {
   moonbeam: "moonbeam",
   aurora: "aurora",
   basescan: "basescan",
-  "goerli.basescan": "basescanGoerli"
+  "goerli.basescan": "basescanGoerli",
+  blastscan: "blastscan"
 };
 
 const ETHERSCAN_KEY = "862Y3WJ4JB4B34PZQRFEV3IK6SZ8GNR9N5";
@@ -75,6 +77,7 @@ const CRONOSCAN_KEY = "BGAN1CWT8E1A2XRS3FU61UP7XXFMHBWNSY";
 const MOONBEAM_KEY = "FENPKQI49RF2P916SQ2J58BTDMU69PQY8Y";
 const AURORA_KEY = "F2JS84SQHM53V4T3AN2CSX6ZHUAXFSHJ8Y";
 const BASESCAN_KEY = "ICQQDUA1C8R2EZY6M4QIIV7WUEZM8INNA7";
+const BLASTSCAN_KEY = "";
 
 export const explorerApiKeys: Record<ApiName, string> = {
   etherscan: ETHERSCAN_KEY,
@@ -109,5 +112,7 @@ export const explorerApiKeys: Record<ApiName, string> = {
   aurora: AURORA_KEY,
 
   basescan: BASESCAN_KEY,
-  'goerli.basescan': BASESCAN_KEY
+  'goerli.basescan': BASESCAN_KEY,
+
+  blastscan: BLASTSCAN_KEY
 };
