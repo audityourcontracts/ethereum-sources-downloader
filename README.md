@@ -48,6 +48,7 @@ apiName is one of:
  - aurora
  - basescan
  - goerli.basescan
+ - blast
 
  contractAddress in hexadecimal format (i.e 0x1F98431c8aD98523631AE4a59f267346ea31F984)
 
